@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 namespace WebChat.Models
-
+//check
 {
     public class Rating
     {
