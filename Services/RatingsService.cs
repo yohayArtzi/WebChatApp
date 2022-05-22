@@ -36,5 +36,13 @@ namespace WebChat.Services
         {
             ratings.Remove(Get(id));
         }
+
+        public List<Rating> GetByName(string searchWord)
+        {
+            List<Rating> q = GetAll().Where(rating => rating.Name.Contains(searchWord) 
+                                                            || rating.Comment.Contains(searchWord)).ToList();
+
+            return q;
+        }
     }
 }

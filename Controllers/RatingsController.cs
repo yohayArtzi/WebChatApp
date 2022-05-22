@@ -26,6 +26,29 @@ namespace WebChat.Controllers
             return View(_service.GetAll());
         }
 
+        
+        // GET: Rating Search
+        //public IActionResult Search()
+        //{
+        //    return View(_service.GetAll());
+        //}
+
+        // POST: Rating Search 
+        [HttpPost]
+        public IActionResult Search(string query)
+        {
+            if (string.IsNullOrEmpty(query)) return RedirectToAction(nameof(Index));
+            return View(_service.GetByName(query));
+        }
+        /*
+        public IActionResult Search2(string query)
+        {
+            var q = _service.GetAll().Where(rating => rating.Name.Contains(query) || rating.Comment.Contains(query));
+            return PartialView(q);
+        }
+
+        */
+
         // GET: Ratings/Details/5
         public IActionResult Details(int? id)
         {
