@@ -5,7 +5,7 @@ VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebChat", "WebChat.csproj", "{8FFF7408-6F65-4D73-A555-842C6F5821AF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "..\WebChatApAP1\WebChatApAP1\WebAPI.csproj", "{B21BE3FF-8858-48FA-B36D-95F7EB609C1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebChatApAP1", "..\WebChatApAP1\WebChatApAP1\WebChatApAP1.csproj", "{5AE0A3CA-090D-4327-8888-20C25850FEDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{8FFF7408-6F65-4D73-A555-842C6F5821AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FFF7408-6F65-4D73-A555-842C6F5821AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FFF7408-6F65-4D73-A555-842C6F5821AF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B21BE3FF-8858-48FA-B36D-95F7EB609C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B21BE3FF-8858-48FA-B36D-95F7EB609C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B21BE3FF-8858-48FA-B36D-95F7EB609C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B21BE3FF-8858-48FA-B36D-95F7EB609C1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AE0A3CA-090D-4327-8888-20C25850FEDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE0A3CA-090D-4327-8888-20C25850FEDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE0A3CA-090D-4327-8888-20C25850FEDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE0A3CA-090D-4327-8888-20C25850FEDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
